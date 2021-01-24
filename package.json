@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss/style.scss src/assets/css/style.css && webpack && exit 1",
+    "watch": "sass --watch src/scss/style.scss:src/assets/css/style.css & webpack --watch"
+  },
+  "keywords": [],
+  "author": "vishal-pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
